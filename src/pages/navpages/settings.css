@@ -1,0 +1,72 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.casing{
+    padding: 6rem 0;
+    background-color: rgb(75, 1, 1);
+
+}
+.shelly{
+    margin-inline: auto;
+padding: 5rem 0;
+background-color: rgb(75, 1, 1);
+
+}
+.shell{
+    display: flex;
+    flex-direction: column;
+    border:1px groove #f3f3f3;
+    padding: 0rem 1rem;
+    border-radius: 2rem;
+    background-color: white;
+
+}
+.headings{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid grey;
+}
+.one{color:grey}
+.two{color:grey}
+.three{color:grey}
+
+.genesis{
+margin-top: -5rem;
+
+}
+
+.gen {
+  background-image: url('./images/ride2afrrican.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem; /* You must set a specified height*/
+  max-width: 8rem;
+  object-fit: contain;
+  padding: 0px 0px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 5rem;
+  border: 1px solid red;
+}
+@media screen and (min-width:800px){
+    .shelly{
+        padding: 10rem 0;
+    }
+
+    .genesis{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .gen{
+        flex:1;
+       height: 15rem; 
+       max-width: 15rem;
+       border-radius: 10rem;
+    }
+}

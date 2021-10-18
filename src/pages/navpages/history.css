@@ -1,0 +1,126 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.sectio{
+    padding:8rem 0;
+    background-color:rgb(49, 2, 2);
+    color:#f3f3f3;
+}
+.contain{
+    margin-inline: auto;
+    width:min(90%,70.5rem);
+    
+}
+.spli{
+    display: flex;
+    flex-direction: column;
+}
+.names{
+    display: flex;
+    flex-direction: row;
+    color:#f3f3f3;
+}
+   
+.names>*{
+text-align: center;
+flex:1;
+}
+
+.measure{
+    display: flex;
+    flex-direction: column;
+    color: #f3f3f3;
+
+}
+.measureone{
+    display: flex;
+flex-direction: row;
+color:#f3f3f3;
+
+}
+.measureone>*{
+    padding: 1rem 0.5rem;
+    font-size: 1.rem;
+    flex:1;
+    text-align: center;
+}
+.measuretwo{
+    display: flex;
+flex-direction: row;
+}
+.measuretwo>*{
+    padding: 1rem 0.5rem;
+    font-size: 1.3rem;
+    flex: 1;
+    text-align: center;
+}
+.hr{
+    background-color: aqua;
+    width:80%;
+}
+.type{
+    display: flex;
+    flex-direction: row;
+    color:aqua;
+    
+}
+.type>*{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+
+}
+.headshot{
+    align-items: center;
+    
+
+}
+.nem{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.shot {
+  background-image: url('./images/ride2afrrican.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem; /* You must set a specified height*/
+  max-width: 8rem;
+  object-fit: contain;
+  padding: 0px 0px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-radius: 5rem;
+  border: 1px solid red;
+}
+.h3{
+    color:#f3f3f3;
+}
+
+@media screen and (min-width:800px){
+    .names{
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .headshot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .shot{
+        flex:1;
+        height:10rem;
+        max-width:10rem;
+    }
+}

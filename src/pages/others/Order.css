@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+#se {
+  margin-top: 4rem;
+  padding: 3rem 0;
+}
+
+.split {
+  color: black;
+  text-align: center;
+  margin-top: 1rem;
+}
+.map {
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 10rem;
+}
+.form {
+  text-align: center;
+}
+#destination {
+  height: 2rem;
+  border: 2px groove maroon;
+  border-radius: 1.5rem;
+}
+.submit {
+  margin-top: 0.6rem;
+  border-radius: 0.6rem;
+}
+.next{
+    margin-top: 0.6rem;
+  border-radius: 0.6rem;
+  width:10rem;
+}

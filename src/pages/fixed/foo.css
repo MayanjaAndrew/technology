@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+:root {
+  --backgroundcolor: black;
+}
+
+body {
+  margin: 0;
+}
+
+footer {
+  background: var(--backgroundcolor);
+  bottom: 0px;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+}
+.wrapper > * {
+  margin-left: 1em;
+}
+
+h3 {
+  color: yellow;
+}
+
+ul {
+  padding: 0px 0px;
+}
+.contact {
+  padding: 0px 0px;
+  list-style: none;
+}
+.contact > * {
+  margin-left: 0;
+}
+li {
+  margin-left: 1em;
+}
+li > * {
+  margin-right: 0.5em;
+}
+.services {
+  display: none;
+}
+.services-checkbox:checked ~ .services {
+  display: block;
+}
+.location {
+  display: none;
+}
+.location-checkbox:checked ~ .location {
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+  }
+  .wrapper {
+    flex-direction: row;
+  }
+  .footerone,
+  .footertwo,
+  .footerthree,
+  .footerfour {
+    flex: 1;
+  }
+  .services-checkbox {
+    display: none;
+  }
+  .location-checkbox {
+    display: none;
+  }
+  .services {
+    display: block;
+  }
+  .location {
+    display: block;
+  }
+}

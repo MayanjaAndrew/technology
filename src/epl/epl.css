@@ -1,0 +1,45 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+#test__section{
+    background-color: aqua;
+    padding:3rem 0;
+}
+.container{
+    margin-inline: auto;
+    width: 100%;
+}
+.split{
+    display: flex;
+    flex-direction: column;
+}
+#split_tabluea{
+    border: 1px groove maroon;
+}
+#split_tabluea>*{
+    border: 1px groove white;
+
+}
+tr,td,th{
+   border: 1px groove white;
+ 
+}
+.addition{
+    width:5rem;
+    height:1.5rem;
+}
+.check{
+    display: none;
+}
+#split_register{
+    display: none;
+}
+
+div{
+    display: flex;
+flex-direction: row;
+padding: 0 1rem;
+}

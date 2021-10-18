@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+#sec {
+  margin-top: 4rem;
+  padding: 3rem 0;
+}
+.con{
+text-align: center;
+}
+.split>*{
+    font-size: 1.5rem;
+}
+.back {
+  margin-top: 0.6rem;
+  border-radius: 0.6rem;
+  width: 10rem;
+}

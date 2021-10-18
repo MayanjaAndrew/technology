@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.body {
+  margin-top: 15rem;
+  color: greenyellow;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+}
+#destination {
+  height: 2rem;
+  border: 2px groove maroon;
+  border-radius: 1.5rem;
+}
+.submit {
+  margin-top: 0.6rem;
+  border-radius: 0.6rem;
+}
+.button{
+    margin-top: 0.6rem;
+  border-radius: 0.6rem;
+  width:5rem;
+  height:1.5rem;
+  background-color: aqua;
+}
+#confirmy{
+  display: none;
+  text-align: center;
+}
+h3{
+  color:aqua;
+}
+@keyframes texty {
+  0% {
+    margin-left: 0;
+  }
+  25%{
+    margin-left:25%;
+  }
+  50%{
+    margin-left: 50%;
+  }
+  75%{
+    margin-left: 75%;
+  }
+  100% {
+    margin-left:80%;
+  }
+}
+
+.motorcycle{
+  text-align: left;
+  animation: texty 2s infinite;
+  border-bottom: 3px groove aqua;
+}
+
