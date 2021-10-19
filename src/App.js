@@ -11,12 +11,14 @@ import Way from './pages/others/Way';
 import History from './pages/navpages/History';
 import Settings from './pages/navpages/Settings';
 import Test from './pages/others/Test';
+import Notify from './pages/others/Notify';
 
 function App() {
   return (
     <>
       <Router>
         <Nav/>
+        <Notify/>
         <Switch>
         <Route path="/" exact component={Home}/>
         <Route path="/order" component={Order}/>
